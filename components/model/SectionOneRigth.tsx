@@ -28,6 +28,11 @@ const SectionOneRigth = () => {
             transition={{ duration: 0.7 }}
             className="bg-[#27272a] z-10 border-[0.5px] border-[#facc15]/15 text-white rounded-lg max-w-xl font-mono mt-10 lg:mt-0"
         >
+            <div className="flex -translate-y-[1px] justify-center">
+                <div className="w-3/4">
+                    <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-green-500 to-transparent" />
+                </div>
+            </div>
             <div className="p-4 border-b-[0.5px] border-[#facc15]/15 flex gap-3">
                 <div className="w-4 flex h-4 bg-red-500 rounded-full"></div>
                 <div className="w-4 flex h-4 bg-[#facc15] rounded-full"></div>

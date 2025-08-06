@@ -39,6 +39,11 @@ const SectionThreeLeft = () => {
                         className="bg-[#27272a]  border-[0.5px] border-[#facc15]/15 text-white rounded-lg min-h-48 font-mono mt-10 lg:mt-0"
                     >
                         <div>
+                            <div className="flex -translate-y-[1px] justify-center">
+                                <div className="w-3/4">
+                                    <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-green-500 to-transparent" />
+                                </div>
+                            </div>
                             <div className="flex flex-row-reverse p-4 border-b-[0.5px] border-[#facc15]/15 justify-between items-center">
                                 <Terminal className="h-4 w-4" />
                                 <div className=" flex gap-3">
