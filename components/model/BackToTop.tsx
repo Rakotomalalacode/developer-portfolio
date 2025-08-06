@@ -29,7 +29,8 @@ const BackToTop = () => {
     isVisible && (
       <button
         onClick={scrollToTop}
-        className="fixed bottom-8 right-8 bg-[#FF6B00] hover:bg-[#ff6a00e7] text-white p-3 rounded-full shadow-lg transition duration-300"
+        // className="fixed z-50 bottom-8 right-8 bg-[#FF6B00] hover:bg-[#ff6a00e7] text-white  rounded-full shadow-lg transition duration-300"
+        className="bg-yellow-500 fixed z-50 bottom-8 right-8 cursor-pointer z-10 text-black text-sm font-semibold p-4 rounded-lg shadow-[0_4px_20px_rgba(255,191,0,0.6)]"
         aria-label="Retour en haut"
       >
         <MdOutlineArrowBackIos className="rotate-90 " />

@@ -40,7 +40,7 @@ const Projects = () => {
             <button
               key={index}
               onClick={() => setSelectedCategory(category)}
-              className={`px-4 py-2 rounded transition-all duration-300 text-gray-700 bg-gray-200 hover:bg-gray-300 ${selectedCategory === category ? "bg-green-500 text-white" : ""}`}
+              className={`px-4 py-2 rounded-lg transition-all duration-300 text-gray-700 bg-gray-200  ${selectedCategory === category ? "bg-green-500 text-white" : ""}`}
             >
               {category}
             </button>
@@ -57,7 +57,7 @@ const Projects = () => {
             placeholder="Rechercher un projet..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="px-4 py-2 border border-gray-300 rounded w-full max-w-md text-black"
+            className="px-4 py-2 border-[0.5px] border-[#facc15]/15 focus:outline-none rounded w-full max-w-md"
           />
         </motion.div>
       </div>
