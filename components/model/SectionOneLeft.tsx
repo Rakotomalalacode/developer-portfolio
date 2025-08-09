@@ -36,7 +36,7 @@ const SectionOneLeft = () => (
                     variant={"myModelButtonTow"}
                 >
                     <a
-                        href="https://example.com/example.pdf"
+                        href="https://www.dropbox.com/scl/fi/7cu6vt641ebtz8snqmdac/CV-Rakotomalala-Hery-Niaina-Tahina.pdf?rlkey=29o0f1nf22a1jcq3nkljz8frv&e=1&st=4mjzmqtw&dl=1"
                         download
                         className="flex items-center"
                     >
