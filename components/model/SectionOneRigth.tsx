@@ -11,7 +11,7 @@ interface Coder {
 
 const coder: Coder = {
     name: "Rakotomalal Hery Niaina Tahina",
-    skills: ["React", "NextJS", "TypeScript", "NodeJS", "TailwindCSS", "Laravel", "Djnago", "MySql", "MongoDB", "PostgreSQL"],
+    skills: ["React", "NextJS", "TypeScript", "NodeJS", "TailwindCSS", "Laravel", "Django", "MySql", "MongoDB", "PostgreSQL"],
     hardWorker: true,
     quickLearner: true,
     problemSolver: true,
